@@ -1,0 +1,28 @@
+Crossfire server has been installed.
+
+IMPORTANT:
+Configuration files are installed as *.sample files and MUST be copied
+before starting the server, otherwise Crossfire will fail to start.
+
+To initialize the configuration, run as root:
+
+  for f in ${PREFIX}/etc/crossfire/*.sample; do
+    base="${f%.sample}"
+    [ -e "$base" ] || cp "$f" "$base"
+  done
+
+Configuration directory:
+  ${PREFIX/etc/crossfire/
+
+Runtime data directory:
+  /var/crossfire
+
+You may now start the server with:
+  crossfire-server
+
+
+Maps are required to run the server.
+The server expects them in:
+  ${PREFIX/share/crossfire/maps/
+
+If you did not install maps, please install the crossfire-maps package/port.

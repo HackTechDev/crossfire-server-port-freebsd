@@ -1,0 +1,5 @@
+Crossfire is a multiplayer online RPG in a fantasy setting.
+
+This package provides the Crossfire game server.
+Clients connect to the server to play in shared worlds. Game content
+(such as maps) is provided separately.
