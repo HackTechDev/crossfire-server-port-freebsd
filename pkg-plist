@@ -202,7 +202,6 @@ share/man/man6/crossloop.6.gz
 share/man/man6/crossloop.web.6.gz
 @dir(games,games,02775) /var/crossfire
 @dir(games,games,02775) /var/crossfire/account
-@dir(games,games,02775) /var/crossfire/accounts
 @dir(games,games,02775) /var/crossfire/datafiles
 @dir(games,games,02775) /var/crossfire/players
 @dir(games,games,02775) /var/crossfire/template-maps
